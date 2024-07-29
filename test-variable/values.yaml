@@ -27,7 +27,7 @@ serviceAccount:
 
 podAnnotations: {}
 podLabels:
-  label-one: "${LABEL-ONE}"
+  label-one: label-one-value #"${LABEL-ONE}"
 
 podSecurityContext: {}
   # fsGroup: 2000
